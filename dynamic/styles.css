@@ -1,0 +1,23 @@
+[data-dark-pattern],
+[data-dark-pattern-element] {
+  background-color: #315888; /* Yellow background */
+  color: #e3e8ec; /* Dark Red text */
+  padding: 2px 4px; /* Padding around the text */
+  border: 2px solid #315888; /* Border to emphasize */
+  cursor: help; /* Help cursor on hover */
+}
+
+[dark-pattern-toggle-container] {
+  position: sticky;
+  top: 0;
+  background-color: #ffffff;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+}
+
+[dark-pattern-toggle-label] {
+  margin-left: 40px;
+}

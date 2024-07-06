@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Dynamic",
+  "version": "1.0",
+  "description": "Highlights 'Limited time deal' as a dark pattern and provides information on hover.",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ]
+}
